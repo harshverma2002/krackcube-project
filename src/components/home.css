@@ -1,0 +1,154 @@
+/* ***********CSS For Home Page ********** */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.home-header{
+    background-color: #1D1F25;
+    border-top: 1px solid #4c4c4c;
+    padding: 3rem 3rem;
+}
+.home-header>p{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.home-header>div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #282C38;
+    color: #757B8C;
+    font-family: 'Poppins';
+    width: 448px;
+    margin-right: 60rem;
+    padding: 1rem 1rem;
+}
+
+.search-box>p{
+    padding-left: 1rem;
+}
+
+.home-header-view>img{
+    padding-left: 1rem;
+}
+
+/* ***************** CSS For home-video************* */
+
+.home-videos{
+    background-color: black;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem;
+}
+
+.tags>div{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    background-color: #1D1F25;
+    border-radius: 25px;
+    padding: 0.8rem 2rem;
+    margin: 1rem 1.2rem;
+}
+
+.tags>div:hover{
+    background-color: #FFBB29;
+    cursor: pointer;
+}
+
+/***************CSS for videocard component**********/
+
+
+.videocard-cont{
+    margin: 0rem 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.videocard{
+    background-color: #1D1F25;
+    display: flex;
+    flex-direction: column;
+    width:325px;
+    height: 454px;
+    border-radius: 15px;
+    margin: 0rem 1rem;
+}
+
+.videocard-sub-1{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem ;
+}
+
+.video-tag{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #FFBB29;
+    line-height: 21px;
+    letter-spacing: 8px;
+    font-size: 14px;
+    margin-right: 4rem;
+}
+
+.two-hrs-ago{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.video-title{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: white;
+    margin: 0px 1rem;
+}
+
+.video-content{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+    color: #B5B5BE;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 1rem 1rem;
+}
+
+.read-more{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    color: #FFBB29;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 1rem;
+}
+
+
+.display{
+    display: none;
+}
